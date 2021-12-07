@@ -95,7 +95,9 @@ img {
 
 .logo-image {
   height: 3rem;
+  width: auto;
 }
+
 .nav-menu a {
   font-weight: 400;
   letter-spacing: 0.1rem;
@@ -326,8 +328,12 @@ img {
 
 @media (min-width: 920px) {
   .logo-image {
-    height: 8rem;
+    height: 10rem;
     padding: 0 0 2rem 2rem;
+  }
+  .nav-item {
+    font-size: 2rem;
+    line-height: 2rem;
   }
   .top-nav {
     height: 12rem;
